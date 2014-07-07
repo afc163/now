@@ -1,0 +1,29 @@
+{
+  "name": "now",
+  "version": "1.0.0",
+  "description": "current time",
+  "keywords": [],
+  "homepage": "https://github.com/afc163/now",
+  "author": "afc163",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afc163/now.git"
+  },
+  "bugs": {
+    "url": "git://github.com/afc163/now.git/issues"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "moment": "2.6.0"
+    },
+    "devDependencies": {
+      "expect": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "tests": "tests/*.js"
+  }
+}
