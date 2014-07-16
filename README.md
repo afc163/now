@@ -1,12 +1,8 @@
-# now
+# now [![spm version](http://spmjs.io/badge/now)](http://spmjs.io/package/now)
 
 ---
-
-[![spm version](http://spmjs.io/badge/now)](http://spmjs.io/package/now)
 
 Current time.
-
----
 
 ## Install
 
