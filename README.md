@@ -1,4 +1,4 @@
-# now [![spm version](http://spmjs.io/badge/now)](http://spmjs.io/package/now)
+# now [![spm package](http://spmjs.io/badge/now)](http://spmjs.io/package/now) [![Build Status](https://img.shields.io/travis/afc163/now.svg?style=flat)](https://travis-ci.org/aralejs/dialog) [![Coverage Status](https://img.shields.io/coveralls/afc163/now.svg?style=flat)](https://coveralls.io/r/aralejs/dialog)
 
 ---
 
