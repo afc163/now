@@ -4,8 +4,10 @@
 
 ## Normal usage
 
+<div id="now-output"></div>
+
 ````javascript
-seajs.use('index', function(now) {
-  alert(now);
+seajs.use(['index', 'jquery'], function(now, $) {
+  $('#now-output').html(now);
 });
 ````
