@@ -1,6 +1,8 @@
 var expect = require('expect');
 var now = require('../index');
 var moment = require('moment');
+var jquery = require('jquery');
+console.log(jquery);
 
 describe('now', function() {
 
