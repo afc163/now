@@ -1,0 +1,16 @@
+machine:
+  node:
+    version: 0.10
+
+
+dependencies:
+  pre:
+    - npm install spm coveralls
+
+test:
+  pre:
+    - node_modules/spm/bin/spm-install
+  override:
+    - node_modules/spm/bin/spm-test
+  post:
+    - node_modules/spm/bin/spm-test --coveralls | node_modules/.bin/coveralls
