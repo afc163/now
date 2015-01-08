@@ -16,5 +16,5 @@ It is very easy to use this module.
 
 ```js
 var now = require('now');
-// use now
+now();
 ```
