@@ -8,6 +8,8 @@
 
 ````javascript
 seajs.use(['index', 'jquery'], function(now, $) {
-  $('#now-output').html(now);
+  setInterval(function() {
+    $('#now-output').html(now);
+  }, 500);
 });
 ````
