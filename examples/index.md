@@ -7,9 +7,10 @@
 <div id="now-output"></div>
 
 ````javascript
-seajs.use(['index', 'jquery'], function(now, $) {
-  setInterval(function() {
-    $('#now-output').html(now());
-  }, 500);
-});
+var now = require('../index');
+var $ = require('jquery');
+
+setInterval(function() {
+  $('#now-output').html(now());
+}, 500);
 ````
